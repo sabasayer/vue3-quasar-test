@@ -18,7 +18,7 @@ const register = async () => {
 
 <template lang="pug">
 QForm(@submit="register" label-position="top" )
-  h3 Register
+  h3( class="q-ma-none" ) Register
   QInput(
     id="email-register"
     type="text"
@@ -39,5 +39,4 @@ QForm(@submit="register" label-position="top" )
     :loading="loadings.signUp"
     class="q-mt-sm"
   )
-  ElAlert(v-if="errors.signUp" type="error" class="mt-3" :title="errors.signUp")
 </template>

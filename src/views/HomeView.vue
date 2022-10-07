@@ -13,7 +13,7 @@ QLayout( view="hHh lpR fFf" )
       QBtn( dense flat round icon="menu" @click="toggleLeftDrawer" )
       QToolbarTitle
         QAvatar
-          img( src="logo.svg" )
+          img( src="../assets/logo.svg" )
   QDrawer( show-if-abover v-model="leftDrawerOpen" side="left" :width="200" bordered )
     TheNavigation
   QPageContainer

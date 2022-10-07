@@ -18,7 +18,7 @@ const login = async () => {
 
 <template lang="pug">
 QForm(@submit.prevent="login" label-position="top" )
-  h3 Login
+  h3( class="q-ma-none" ) Login
   QInput(id="email" type="text" class="w-full" v-model="value.email" :label="$t('Email')")
   QInput(
     id="password"
