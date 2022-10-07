@@ -1,0 +1,24 @@
+{
+    "Hobbies": "Hobbies",
+    "AddNewHobby": "Add New Hobby",
+    "Status":"Status",
+    "status":{
+      "planning":"Planning",
+      "started":"Started",
+      "paused":"Paused",
+      "finished":"Finished",
+      "abondoned":"Abondoned"
+    },
+    "Category":"Category",
+    "Create":"Create",
+    "Update":"Update",
+    "Edit":"Edit",
+    "Remove":"Remove",
+    "Name":"Name",
+    "NewHobby":"New Hobby",
+    "StartDate":"Start Date",
+    "Calendar":"Calendar",
+    "ChangeStatus":"Change Status",
+    "TableEmpty":"There is no item that relates with your filters",
+    "Actions":"Actions"
+  }
